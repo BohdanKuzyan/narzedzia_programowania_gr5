@@ -21,3 +21,4 @@ switch (znak) {
     }
     printf("wynik to: %f\n",wynik);}
 }//oczywiście jak kod jest jakoś głupio napisany, to zmieniajcie, pamiętajcie jednak o zachowaniu modularności
+//zzzzzzz
