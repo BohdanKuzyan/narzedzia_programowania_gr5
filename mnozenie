@@ -1,0 +1,2 @@
+void mnozenia(float zmienna){
+    wynik*=zmienna;}

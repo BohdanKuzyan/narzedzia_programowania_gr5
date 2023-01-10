@@ -1,0 +1,3 @@
+void dzielenie(float zmienna){
+    wynik/=zmienna;
+}

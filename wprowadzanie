@@ -1,0 +1,29 @@
+void wprowadzanie(){
+    float zmienna;
+    char znak=0;
+    while (1==1){
+        while (1==1){//safeguard przed wpisywaniem złego znaku
+            printf("podaj znak dzialania(+,-,*,/).'K' konczy dzialanie kalkulatora:");//niezbyt eleganckie ale jest jak jest
+            scanf(" %c",&znak);
+            if (znak=='k'||znak=='K'||znak=='-'||znak=='+'||znak=='*'||znak=='/')break;}//Przy dodawaniu case'ów dodawajcie tutaj adekwatne znaki
+        if (znak=='k'||znak=='K') break;//koniec pracy
+        printf("podaj liczbe");
+        scanf(" %f",&zmienna);
+        switch (znak) {
+            case '+':
+                dodawanie(zmienna);
+                break;
+            case '-':
+                dodawanie(zmienna*-1);
+                break;
+            case '*':
+                mnozenia(zmienna);
+                break;
+            case '/':
+                dzielenie(zmienna);
+                break;
+                //tutaj inne case'y. Przydałoby się mnożenie(oparte na dodawaniu), potęgowanie(oparte na mnożeniu), dzielenie,(z komunikatem o niedzieleniu przez 0)
+                //jakaś silnia(trzeba pominąć drugą liczbę if znak!='!' scanf(zmienna)), jakiś może logarytm, może jakiś pierwiastek(gdzie stopień jest równy drugiej liczbie)
+        }
+        printf("wynik to: %f\n",wynik);}
+}//oczywiście jak kod jest jakoś głupio napisany, to zmieniajcie, pamiętajcie jednak o zachowaniu modularności
