@@ -1,0 +1,9 @@
+#include <stdio.h>
+void dodawanie(float zmienna);
+void wprowadzanie();
+float wynik;//zmienna globalna która jest stale modyfikowana przez jedną liczbę co iteracje nieskończonej pętli
+int main() {
+    printf("podaj liczbe");
+    scanf("%f",&wynik); //napisałem to osobno, aby nie wyświetlać wyniku po 1 argumencie
+    wprowadzanie();
+    return 0;}

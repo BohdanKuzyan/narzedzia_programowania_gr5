@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void) {
+  int i,j, rows,k=1;
+  printf("Podaj za pomocą kodu ASCII z jakiego znaku ma składać się ciąg wypisywania ");
+  scanf("%d",&k);
+  printf("\nPodaj z ilu wierszy ma składać się ten ciąg ");
+  scanf("%d",&rows);
+  for(i=1;i<=rows;i++)
+    {
+      for(j=1;j<=i;j++)
+      { 
+          printf("%c ",k);
+      }
+        printf("\n");
+    }
+  return 0;
+}

@@ -1,0 +1,3 @@
+void dodawanie (float zmienna){//wprowadzamy zmienną z każdą iteracją
+    wynik+=zmienna;} //wszystko jest pakowane w zmienną globalną, która jest po każdej iteracji pętli printowana}
+    //taka krótka funkcja brzmi głupio, ale chyba tak to powinno się robić
