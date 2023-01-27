@@ -2,7 +2,7 @@
 
 int main(void) {
   int i,j, rows,k=1;
-  printf("Podaj za pomocą kodu ASCII z jakiego znaku ma składać się ciąg wypisywania ");
+  printf("Podaj za pomocą kodu  z jakiego znaku ma składać się ciąg wypisywania ");
   scanf("%d",&k);
   printf("\nPodaj z ilu wierszy ma składać się ten ciąg ");
   scanf("%d",&rows);
